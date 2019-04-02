@@ -1,0 +1,27 @@
+{
+  "name": "mongodb-crud",
+  "version": "1.0.0",
+  "description": "List of User routes: ==== **BOLD** | **HTTP** | **Header(s)**  | **Body** | **Description** :---: | :---: | :---: | :---: | :---: `/book` | GET | token | none | Get all the Book `/book/:isbn` | GET | token | none | Get a single Book `/book/` | POST | token | none | Create a book `/book/:isbn` | PUT | token | none | Update a book with a new info `/book/:isbn` | DELETE | token | none | Delete a book",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon app.js",
+    "start" : "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azharnazli/mongodb-crud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azharnazli/mongodb-crud/issues"
+  },
+  "homepage": "https://github.com/azharnazli/mongodb-crud#readme"
+}
